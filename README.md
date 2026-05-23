@@ -4,7 +4,7 @@ A full-stack e-commerce platform built on a microservices architecture, integrat
 
 ---
 
-## ⚡ Performance Highlights
+## Performance Highlights
 
 | Metric | Before | After |
 |---|---|---|
@@ -13,7 +13,7 @@ A full-stack e-commerce platform built on a microservices architecture, integrat
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ```
 ┌─────────────┐     ┌─────────────────────────────────────┐
@@ -33,7 +33,7 @@ A full-stack e-commerce platform built on a microservices architecture, integrat
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -46,7 +46,7 @@ A full-stack e-commerce platform built on a microservices architecture, integrat
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 - **ML-powered fraud detection** — ResNet-50 (pretrained on ImageNet) extracts feature vectors from dispatch and return images; cosine similarity score above 0.8 marks the return as genuine, below as fraudulent. Achieves **95% fraud reduction** on the validation dataset
 - **Redis caching** on hot API routes — slashed latency from 175ms to 12ms
@@ -56,7 +56,7 @@ A full-stack e-commerce platform built on a microservices architecture, integrat
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -116,19 +116,19 @@ python new.py
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 NeoStore/
 ├── backend/          # Node.js REST API with Redis caching
 ├── frontend/         # React.js UI
-├── demo images/      # Screenshots
+├── demo images/      # Sample test images
 └── new.py            # Flask ML microservice — ResNet-50 fraud detection (POST /upload)
 ```
 
 ---
 
-## 👤 Author
+## Author
 
 **Ravikiran Pedapalli**  
 [LinkedIn](https://linkedin.com/in/pedapalli-ravi-kiran) · [GitHub](https://github.com/ravikiranp04)
