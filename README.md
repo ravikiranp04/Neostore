@@ -128,12 +128,6 @@ NeoStore/
 
 ---
 
-## 📸 Demo
-
-Screenshots available in the [`demo images/`](./demo%20images) folder.
-
----
-
 ## 👤 Author
 
 **Ravikiran Pedapalli**  
